@@ -33,7 +33,7 @@ class Solution(object):
                 return True
         return False
 
-    # 42ms 5624
+    # 42ms 5624k
     def duplicate_3(self, numbers, duplication):
         a = collections.Counter(numbers)
         for k,v in a.items():
