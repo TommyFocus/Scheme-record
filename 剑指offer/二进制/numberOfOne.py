@@ -1,5 +1,6 @@
 from ctypes import *
 
+
 class Solution:
 	def number(self, n):
 		cnt = 0
